@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureFile - Enkripsi File Browser</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="upload-container">
+    <h2>📁 File Encryptor & Decryptor</h2>
+    <p>Enkripsi file apa pun langsung di browser Anda.</p>
+    
+    <input type="file" id="fileInput">
+    <input type="password" id="password" placeholder="Masukkan Password Kuat">
+
+    <div class="actions">
+        <button onclick="processFile('encrypt')" class="btn-enc">Enkripsi File</button>
+        <button onclick="processFile('decrypt')" class="btn-dec">Dekripsi File</button>
+    </div>
+
+    <div id="status"></div>
+    <a id="downloadLink" style="display:none;">Download Hasil</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

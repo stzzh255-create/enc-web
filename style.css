@@ -1,0 +1,9 @@
+body { font-family: sans-serif; background: #121212; color: white; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+.upload-container { background: #1e1e1e; padding: 30px; border-radius: 15px; text-align: center; width: 400px; border: 1px solid #333; }
+input { width: 100%; margin: 10px 0; padding: 10px; border-radius: 5px; border: 1px solid #444; background: #252525; color: white; }
+.actions { display: flex; gap: 10px; margin-top: 10px; }
+button { flex: 1; padding: 12px; cursor: pointer; border: none; border-radius: 5px; font-weight: bold; }
+.btn-enc { background: #007bff; color: white; }
+.btn-dec { background: #28a745; color: white; }
+#status { margin-top: 15px; font-size: 0.9em; color: #aaa; }
+#downloadLink { margin-top: 15px; color: #00d4ff; text-decoration: none; font-weight: bold; }
